@@ -1,0 +1,9 @@
+n = int(input())
+l = list(map(int, input().split()))
+for i in range(n):   
+        if (i % 2 == 0):
+            l[i] = l[i] *  2;
+        else:
+                l[i] = l[i] // 2
+for item in l:
+    print(item,end = ' ')
