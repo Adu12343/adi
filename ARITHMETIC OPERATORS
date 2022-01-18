@@ -1,0 +1,10 @@
+This program  takes two intergers  lets say a and b 
+the first line contains sum of numbers
+the second line contains difference of two numbers
+the thihd line contains the product of two numbers
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    print(a + b)
+    print(a - b)
+    print(a * b)
