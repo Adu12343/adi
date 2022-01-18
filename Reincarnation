@@ -1,0 +1,7 @@
+in the world of numbers every number dies at some point and reincarnates. The newer generation will always surpass the previous generation and hence every number X upon incarnation will be promoted with a power Y i.e. X will now become X raised to the power Y. The god of the world of numbers needs a small break and hence has given you the task of reincarnating the incoming numbers after raising them to the power Y.
+so  simply  x raised to power y and vice versa 
+like   2  4   are input
+      16    is output
+      program:
+ x, y = input().split()
+print(int(x)**int(y))
